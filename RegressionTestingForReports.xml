@@ -2,9 +2,16 @@
 <suite parallel="false" name="Suite">
   <test name="Test">
     <classes>
-      <class name="tests.UserCanGenerateGeneralStrategicPerformanceReportTest"/>
-      <class name="tests.UserCanGenerateQualitivePerformanceAnalysisReportTest"/>
       <class name="tests.UserCanGenerateSummaryStrategicPerformanceReportTest"/>
+      <class name="tests.UserCanGenerateGeneralStrategicPerformanceReportTest"/>
+      <class name="tests.UserCanGenerateSectorsPerformanceReportTest"/>
+      <class name="tests.UserCanGeneratePortfoliosPerformanceReportTest"/>
+      <class name="tests.UserCanGenerateDepartmentsPerformanceReportTest"/>
+      <class name="tests.UserCanGenerateProgramsPerformanceReportTest"/>
+      <class name="tests.UserCanGenerateProjectsPerformanceReportTest"/>
+      <class name="tests.UserCanGenerateKPIsPerformanceReportTest"/>
+      <class name="tests.UserCanGenerateOperationalActivitiesPerformanceReportTest"/> 
+      <class name="tests.UserCanGenerateQualitivePerformanceAnalysisReportTest"/>            
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

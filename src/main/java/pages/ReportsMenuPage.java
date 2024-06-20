@@ -28,6 +28,21 @@ public class ReportsMenuPage extends PageBase
 	@FindBy(linkText = "تقرير أداء المشاريع")
 	WebElement projectsPerformanceReport;
 	
+	@FindBy(linkText = "تقرير أداء البرامج")
+	WebElement programsPerformanceReport;
+	
+	@FindBy(linkText = "تقرير أداء الوحدات الإدارية")
+	WebElement departmentsPerformanceReport;
+	
+	@FindBy(linkText = "تقرير أداء القطاعات")
+	WebElement sectorsPerformanceReport;
+	
+	@FindBy(linkText = "تقرير أداء المحافظ")
+	WebElement portfoliosPerformanceReport;
+	
+	@FindBy(linkText = "تقرير أداء مؤشرات الأداء")
+	WebElement kpisPerformanceReport;
+	
 	public void openOperationalActivitiesPerformanceReport()
 	{
 		clickButton(operationalActivitiesPerformanceReport);
@@ -52,5 +67,29 @@ public class ReportsMenuPage extends PageBase
 	{
 		clickButton(projectsPerformanceReport);
 	}
+	
+	public void openProgramsPerformanceReport()
+	{
+		clickButton(programsPerformanceReport);
+	}
+	
+	public void openDepartmentsPerformanceReport()
+	{
+		clickButton(departmentsPerformanceReport);
+	}
+	
+	public void openSectorsPerformanceReport()
+	{
+		clickButton(sectorsPerformanceReport);
+	}
+	
+	public void openPortfoliosPerformanceReport()
+	{
+		clickButton(portfoliosPerformanceReport);
+	}
 
+	public void openKPIsPerformanceReport()
+	{
+		clickButton(kpisPerformanceReport);
+	}
 }

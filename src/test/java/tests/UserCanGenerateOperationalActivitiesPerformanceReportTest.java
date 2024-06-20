@@ -1,5 +1,8 @@
 package tests;
 
+import java.util.Set;
+
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pages.HomePage;
@@ -7,6 +10,7 @@ import pages.LoginPage;
 import pages.OperationalActivitiesReportPage;
 import pages.ReportsMenuPage;
 import pages.SideMenuPage;
+import tests.TestBases.TestBase;
 
 public class UserCanGenerateOperationalActivitiesPerformanceReportTest extends TestBase
 {
@@ -17,7 +21,7 @@ public class UserCanGenerateOperationalActivitiesPerformanceReportTest extends T
 	OperationalActivitiesReportPage operationalActivitiesReportObject;
 	String userName = "idsadmin";
 	String password = "P@ssw0rd";
-	
+
 	@Test
 	public void userCanGenerateOperationalActivitiesPerformanceReportSuccessfully() throws InterruptedException
 	{
@@ -31,8 +35,26 @@ public class UserCanGenerateOperationalActivitiesPerformanceReportTest extends T
 		reportsMenuObject = new ReportsMenuPage(driver);
 		reportsMenuObject.openOperationalActivitiesPerformanceReport();
 		Thread.sleep(15000);
+
+		String mainWindowHandle = driver.getWindowHandle();
+		Set<String> windowHandles = driver.getWindowHandles();
+		for (String handle : windowHandles) 
+		{
+			if (!handle.equals(mainWindowHandle)) 
+			{
+				driver.switchTo().window(handle);
+				break;
+			}
+		}  
 		operationalActivitiesReportObject = new OperationalActivitiesReportPage(driver);
-		operationalActivitiesReportObject.generateOperationalActivitiesReport();
+		operationalActivitiesReportObject.selectRadioBtnOfDepartmentsPermissions();
+		Thread.sleep(10000);
+		operationalActivitiesReportObject.selectCheckboxOfOperationalActivities();
+		Thread.sleep(10000);
+		operationalActivitiesReportObject.clickOnGenerateBtn();
+		Assert.assertEquals(operationalActivitiesReportObject.operationalActivitiesPerformanceReportTitle.getText(), "تقرير أداء الأنشطة التشغيلية");
+		System.out.println("Operational Activities Report was generated Successfully");
+		driver.switchTo().window(mainWindowHandle);
 	}
 
 }

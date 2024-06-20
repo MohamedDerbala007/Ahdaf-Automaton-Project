@@ -28,4 +28,12 @@ public class SideMenuPage extends PageBase
 	{
 		clickButton(rootBSC);
 	}
+<<<<<<< Updated upstream
+=======
+	
+	public void openAdmininstrationMenu()
+	{
+		clickButton(administrationMenu);
+	}
+>>>>>>> Stashed changes
 }

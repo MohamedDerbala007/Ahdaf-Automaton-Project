@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.IntermediateResultsMasterDashboardPage;
 import pages.LoginPage;
+import tests.TestBases.TestBase;
 
 public class DataOfIntermediateResultsMasterDashboardDisplayedTest extends TestBase
 {

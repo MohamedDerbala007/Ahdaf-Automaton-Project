@@ -8,6 +8,7 @@ import pages.HomePage;
 import pages.LoginPage;
 import pages.ReportsMenuPage;
 import pages.SideMenuPage;
+import tests.TestBases.TestBase;
 
 public class UserCanGenerateGeneralStrategicPerformanceReportTest extends TestBase
 {
@@ -25,7 +26,7 @@ public class UserCanGenerateGeneralStrategicPerformanceReportTest extends TestBa
 		loginObject = new LoginPage(driver);
 		loginObject.userLogin(userName, password);
 		homeObject = new HomePage(driver);
-		Thread.sleep(10000);
+		Thread.sleep(25000);
 		homeObject.openSideMenu();
 		sideMenuObject = new SideMenuPage(driver);
 		sideMenuObject.openReportsMenu();
@@ -34,6 +35,7 @@ public class UserCanGenerateGeneralStrategicPerformanceReportTest extends TestBa
 		Thread.sleep(15000);
 		generalStrategicPerformanceReportObject = new GeneralStrategicPerformanceReportPage(driver);
 		Assert.assertEquals(generalStrategicPerformanceReportObject.generalStrategicPerformanceReportTitle.getText(), "تقرير الأداء الاستراتيجي الشامل");
+		System.out.println("General Strategic Performance Report was generated Successfully");
 	}
 
 }

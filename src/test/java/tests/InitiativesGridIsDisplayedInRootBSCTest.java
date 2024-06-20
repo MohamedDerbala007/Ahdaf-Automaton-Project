@@ -3,6 +3,7 @@ package tests;
 import org.testng.annotations.Test;
 import pages.InitiativesViewInRootBSC;
 import pages.LoginPage;
+import tests.TestBases.TestBase2;
 
 public class InitiativesGridIsDisplayedInRootBSCTest extends TestBase2
 {

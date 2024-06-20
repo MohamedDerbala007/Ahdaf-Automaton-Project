@@ -8,6 +8,7 @@ import pages.LoginPage;
 import pages.QualitativePerformanceAnalysisReportPage;
 import pages.ReportsMenuPage;
 import pages.SideMenuPage;
+import tests.TestBases.TestBase;
 
 public class UserCanGenerateQualitivePerformanceAnalysisReportTest extends TestBase
 {
@@ -34,6 +35,7 @@ public class UserCanGenerateQualitivePerformanceAnalysisReportTest extends TestB
 		Thread.sleep(15000);
 		qualitativePerformanceAnalysisReportObject = new QualitativePerformanceAnalysisReportPage(driver);
 		Assert.assertEquals(qualitativePerformanceAnalysisReportObject.qualitativePerformanceAnalysisReportTitle.getText(), "تقرير تحليل الأداء النوعي");
+		System.out.println("Qualitive Performance Analysis Report was generated Successfully");
 	}
 
 }

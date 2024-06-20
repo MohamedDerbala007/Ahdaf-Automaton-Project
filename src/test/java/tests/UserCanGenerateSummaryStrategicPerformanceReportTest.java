@@ -8,6 +8,7 @@ import pages.LoginPage;
 import pages.ReportsMenuPage;
 import pages.SideMenuPage;
 import pages.SummaryStrategicPerformanceReportPage;
+import tests.TestBases.TestBase;
 
 public class UserCanGenerateSummaryStrategicPerformanceReportTest extends TestBase
 {
@@ -34,6 +35,7 @@ public class UserCanGenerateSummaryStrategicPerformanceReportTest extends TestBa
 		Thread.sleep(15000);
 		SummaryStrategicPerformanceReporObject = new SummaryStrategicPerformanceReportPage(driver);
 		Assert.assertEquals(SummaryStrategicPerformanceReporObject.summaryStrategicPerformanceReportTitle.getText(), "تقرير الأداء الاستراتيجي الملخص");
+		System.out.println("Summary Strategic Performance Report was generated Successfully");
 	}
 
 }

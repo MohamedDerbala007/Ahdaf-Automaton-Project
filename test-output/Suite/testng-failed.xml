@@ -3,27 +3,13 @@
 <suite name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="tests.UserCanGenerateGeneralStrategicPerformanceReportTest">
-        <methods>
-          <include name="userCanGenerateSummaryStrategicPerformanceReportSuccessfully"/>
-          <include name="startDriver"/>
-          <include name="stopDriver"/>
-        </methods>
-      </class> <!-- tests.UserCanGenerateGeneralStrategicPerformanceReportTest -->
-      <class name="tests.UserCanGenerateQualitivePerformanceAnalysisReportTest">
+      <class name="tests.BEClientIntegrationSettingsIsDisplayedTest">
         <methods>
           <include name="startDriver"/>
           <include name="stopDriver"/>
-          <include name="userCanGenerateSummaryStrategicPerformanceReportSuccessfully"/>
+          <include name="beclientIntegrationSettingsAreDisplayedSuccessfully"/>
         </methods>
-      </class> <!-- tests.UserCanGenerateQualitivePerformanceAnalysisReportTest -->
-      <class name="tests.UserCanGenerateSummaryStrategicPerformanceReportTest">
-        <methods>
-          <include name="startDriver"/>
-          <include name="stopDriver"/>
-          <include name="userCanGenerateSummaryStrategicPerformanceReportSuccessfully"/>
-        </methods>
-      </class> <!-- tests.UserCanGenerateSummaryStrategicPerformanceReportTest -->
+      </class> <!-- tests.BEClientIntegrationSettingsIsDisplayedTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

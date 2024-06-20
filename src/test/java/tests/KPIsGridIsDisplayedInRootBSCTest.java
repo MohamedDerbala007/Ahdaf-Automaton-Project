@@ -3,6 +3,7 @@ package tests;
 import org.testng.annotations.Test;
 import pages.KPIsViewInRootBSC;
 import pages.LoginPage;
+import tests.TestBases.TestBase3;
 
 public class KPIsGridIsDisplayedInRootBSCTest extends TestBase3
 {
