@@ -1,104 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< Updated upstream
-  <suite started-at="2024-03-25T22:33:30 EET" name="Suite" finished-at="2024-03-25T22:35:56 EET" duration-ms="145226">
+  <suite started-at="2024-06-25T20:13:34 EEST" name="Default suite" finished-at="2024-06-25T20:14:25 EEST" duration-ms="51246">
     <groups>
     </groups>
-    <test started-at="2024-03-25T22:33:30 EET" name="Test" finished-at="2024-03-25T22:35:56 EET" duration-ms="145226">
-      <class name="tests.DataOfMasterDashboardDisplayedTest">
-        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.DataOfMasterDashboardDisplayedTest@c8c12ac]" started-at="2024-03-25T22:34:39 EET" name="startDriver" finished-at="2024-03-25T22:34:42 EET" duration-ms="2388" status="PASS">
+    <test started-at="2024-06-25T20:13:34 EEST" name="Default test" finished-at="2024-06-25T20:14:25 EEST" duration-ms="51246">
+      <class name="tests.UserCanGenerateSummaryStrategicPerformanceReportTest">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.UserCanGenerateSummaryStrategicPerformanceReportTest@313ac989]" started-at="2024-06-25T20:13:34 EEST" name="startDriver" finished-at="2024-06-25T20:13:56 EEST" duration-ms="22453" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="userCanGenerateSummaryStrategicPerformanceReportSuccessfully()[pri:0, instance:tests.DataOfMasterDashboardDisplayedTest@c8c12ac]" started-at="2024-03-25T22:34:42 EET" name="userCanGenerateSummaryStrategicPerformanceReportSuccessfully" finished-at="2024-03-25T22:35:17 EET" duration-ms="35598" status="PASS">
+        <test-method signature="userCanGenerateSummaryStrategicPerformanceReportSuccessfully()[pri:0, instance:tests.UserCanGenerateSummaryStrategicPerformanceReportTest@313ac989]" started-at="2024-06-25T20:13:56 EEST" name="userCanGenerateSummaryStrategicPerformanceReportSuccessfully" finished-at="2024-06-25T20:14:25 EEST" duration-ms="28404" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button class="closebtn" id="closebtn">...</button> is not clickable at point (1513, 29). Other element would receive the click: <div _ngcontent-c14="" class="black-overlay ng-star-inserted" style="background-color: rgba(255, 0, 0, 0);">...</div>
+  (Session info: chrome=126.0.6478.114)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0d455824b153766ce4a035d423a600b0, clickElement {id=f.DD204C33361F496491A40B506B2DC8CB.d.AD31C966D8CF748DD08710880A82E05E.e.42}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51249}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51249/devtoo..., se:cdpVersion: 126.0.6478.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0d455824b153766ce4a035d423a600b0)] -> id: closebtn]
+Session ID: 0d455824b153766ce4a035d423a600b0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="closebtn" id="closebtn">...</button> is not clickable at point (1513, 29). Other element would receive the click: <div _ngcontent-c14="" class="black-overlay ng-star-inserted" style="background-color: rgba(255, 0, 0, 0);">...</div>
+  (Session info: chrome=126.0.6478.114)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0d455824b153766ce4a035d423a600b0, clickElement {id=f.DD204C33361F496491A40B506B2DC8CB.d.AD31C966D8CF748DD08710880A82E05E.e.42}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.114, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51249}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51249/devtoo..., se:cdpVersion: 126.0.6478.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0d455824b153766ce4a035d423a600b0)] -> id: closebtn]
+Session ID: 0d455824b153766ce4a035d423a600b0
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+at pages.PageBase.clickButton(PageBase.java:24)
+at pages.HomePage.openSideMenu(HomePage.java:46)
+at tests.UserCanGenerateSummaryStrategicPerformanceReportTest.userCanGenerateSummaryStrategicPerformanceReportSuccessfully(UserCanGenerateSummaryStrategicPerformanceReportTest.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userCanGenerateSummaryStrategicPerformanceReportSuccessfully -->
-        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.DataOfMasterDashboardDisplayedTest@c8c12ac]" started-at="2024-03-25T22:35:17 EET" name="stopDriver" finished-at="2024-03-25T22:35:18 EET" duration-ms="241" status="PASS">
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.UserCanGenerateSummaryStrategicPerformanceReportTest@313ac989]" started-at="2024-06-25T20:14:25 EEST" name="stopDriver" finished-at="2024-06-25T20:14:25 EEST" duration-ms="315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopDriver -->
-      </class> <!-- tests.DataOfMasterDashboardDisplayedTest -->
-      <class name="tests.KPIsGridIsDisplayedInRootBSCTest">
-        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.KPIsGridIsDisplayedInRootBSCTest@1623b78d]" started-at="2024-03-25T22:34:18 EET" name="startDriver" finished-at="2024-03-25T22:34:27 EET" duration-ms="8895" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startDriver -->
-        <test-method signature="userCanGenerateSummaryStrategicPerformanceReportSuccessfully()[pri:0, instance:tests.KPIsGridIsDisplayedInRootBSCTest@1623b78d]" started-at="2024-03-25T22:34:27 EET" name="userCanGenerateSummaryStrategicPerformanceReportSuccessfully" finished-at="2024-03-25T22:34:39 EET" duration-ms="12454" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userCanGenerateSummaryStrategicPerformanceReportSuccessfully -->
-        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.KPIsGridIsDisplayedInRootBSCTest@1623b78d]" started-at="2024-03-25T22:34:39 EET" name="stopDriver" finished-at="2024-03-25T22:34:39 EET" duration-ms="248" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- stopDriver -->
-      </class> <!-- tests.KPIsGridIsDisplayedInRootBSCTest -->
-      <class name="tests.DataOfIntermediateResultsMasterDashboardDisplayedTest">
-        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.DataOfIntermediateResultsMasterDashboardDisplayedTest@6adbc9d]" started-at="2024-03-25T22:35:18 EET" name="startDriver" finished-at="2024-03-25T22:35:20 EET" duration-ms="2341" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startDriver -->
-        <test-method signature="userCanGenerateSummaryStrategicPerformanceReportSuccessfully()[pri:0, instance:tests.DataOfIntermediateResultsMasterDashboardDisplayedTest@6adbc9d]" started-at="2024-03-25T22:35:20 EET" name="userCanGenerateSummaryStrategicPerformanceReportSuccessfully" finished-at="2024-03-25T22:35:55 EET" duration-ms="35547" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userCanGenerateSummaryStrategicPerformanceReportSuccessfully -->
-        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.DataOfIntermediateResultsMasterDashboardDisplayedTest@6adbc9d]" started-at="2024-03-25T22:35:55 EET" name="stopDriver" finished-at="2024-03-25T22:35:56 EET" duration-ms="285" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- stopDriver -->
-      </class> <!-- tests.DataOfIntermediateResultsMasterDashboardDisplayedTest -->
-      <class name="tests.InitiativesGridIsDisplayedInRootBSCTest">
-        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.InitiativesGridIsDisplayedInRootBSCTest@5c33f1a9]" started-at="2024-03-25T22:33:59 EET" name="startDriver" finished-at="2024-03-25T22:34:03 EET" duration-ms="3696" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startDriver -->
-        <test-method signature="userCanGenerateSummaryStrategicPerformanceReportSuccessfully()[pri:0, instance:tests.InitiativesGridIsDisplayedInRootBSCTest@5c33f1a9]" started-at="2024-03-25T22:34:03 EET" name="userCanGenerateSummaryStrategicPerformanceReportSuccessfully" finished-at="2024-03-25T22:34:17 EET" duration-ms="14432" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userCanGenerateSummaryStrategicPerformanceReportSuccessfully -->
-        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.InitiativesGridIsDisplayedInRootBSCTest@5c33f1a9]" started-at="2024-03-25T22:34:17 EET" name="stopDriver" finished-at="2024-03-25T22:34:18 EET" duration-ms="252" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- stopDriver -->
-      </class> <!-- tests.InitiativesGridIsDisplayedInRootBSCTest -->
-      <class name="tests.AhdafBSCsStructureIsDisplayedInHomePageTest">
-        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.AhdafBSCsStructureIsDisplayedInHomePageTest@3febb011]" started-at="2024-03-25T22:33:30 EET" name="startDriver" finished-at="2024-03-25T22:33:34 EET" duration-ms="3036" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startDriver -->
-        <test-method signature="userCanGenerateSummaryStrategicPerformanceReportSuccessfully()[pri:0, instance:tests.AhdafBSCsStructureIsDisplayedInHomePageTest@3febb011]" started-at="2024-03-25T22:33:34 EET" name="userCanGenerateSummaryStrategicPerformanceReportSuccessfully" finished-at="2024-03-25T22:33:59 EET" duration-ms="25467" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userCanGenerateSummaryStrategicPerformanceReportSuccessfully -->
-        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.AhdafBSCsStructureIsDisplayedInHomePageTest@3febb011]" started-at="2024-03-25T22:33:59 EET" name="stopDriver" finished-at="2024-03-25T22:33:59 EET" duration-ms="272" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- stopDriver -->
-      </class> <!-- tests.AhdafBSCsStructureIsDisplayedInHomePageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
-=======
-  <suite started-at="2024-06-08T22:11:26 EEST" name="Default suite" finished-at="2024-06-08T22:12:16 EEST" duration-ms="50230">
-    <groups>
-    </groups>
-    <test started-at="2024-06-08T22:11:26 EEST" name="Default test" finished-at="2024-06-08T22:12:16 EEST" duration-ms="50230">
-      <class name="tests.UsersSettingsAreDisplayedTest">
-        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.UsersSettingsAreDisplayedTest@313ac989]" started-at="2024-06-08T22:11:26 EEST" name="startDriver" finished-at="2024-06-08T22:11:36 EEST" duration-ms="10939" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startDriver -->
-        <test-method signature="usersSettingsAreDisplayedSuccessfully()[pri:0, instance:tests.UsersSettingsAreDisplayedTest@313ac989]" started-at="2024-06-08T22:11:37 EEST" name="usersSettingsAreDisplayedSuccessfully" finished-at="2024-06-08T22:12:16 EEST" duration-ms="39021" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- usersSettingsAreDisplayedSuccessfully -->
-        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.UsersSettingsAreDisplayedTest@313ac989]" started-at="2024-06-08T22:12:16 EEST" name="stopDriver" finished-at="2024-06-08T22:12:16 EEST" duration-ms="225" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- stopDriver -->
-      </class> <!-- tests.UsersSettingsAreDisplayedTest -->
+      </class> <!-- tests.UserCanGenerateSummaryStrategicPerformanceReportTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
->>>>>>> Stashed changes
 </testng-results>

@@ -18,6 +18,9 @@ public class SideMenuPage extends PageBase
 	@FindBy(id = "BSCName")
 	WebElement rootBSC;
 	
+	@FindBy(xpath = "//*[@id=\"sidebar-panel\"]/mat-nav-list/app-layout-sidenav/div/mat-list-item[25]/div/a/span[1]")
+	WebElement administrationMenu;
+	
 	
 	public void openReportsMenu()
 	{
@@ -28,12 +31,8 @@ public class SideMenuPage extends PageBase
 	{
 		clickButton(rootBSC);
 	}
-<<<<<<< Updated upstream
-=======
-	
 	public void openAdmininstrationMenu()
 	{
 		clickButton(administrationMenu);
 	}
->>>>>>> Stashed changes
 }

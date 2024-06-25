@@ -3,22 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-<<<<<<< Updated upstream
-      <class name="tests.UserCanGenerateOperationalActivitiesPerformanceReportTest">
-=======
-      <class name="tests.UsersSettingsAreDisplayedTest">
->>>>>>> Stashed changes
+      <class name="tests.UserCanGenerateSummaryStrategicPerformanceReportTest">
         <methods>
-          <include name="usersSettingsAreDisplayedSuccessfully"/>
           <include name="startDriver"/>
           <include name="stopDriver"/>
-          <include name="userCanGenerateOperationalActivitiesPerformanceReportSuccessfully"/>
+          <include name="userCanGenerateSummaryStrategicPerformanceReportSuccessfully"/>
         </methods>
-<<<<<<< Updated upstream
-      </class> <!-- tests.UserCanGenerateOperationalActivitiesPerformanceReportTest -->
-=======
-      </class> <!-- tests.UsersSettingsAreDisplayedTest -->
->>>>>>> Stashed changes
+      </class> <!-- tests.UserCanGenerateSummaryStrategicPerformanceReportTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
