@@ -2,9 +2,9 @@
 <suite parallel="false" name="Suite">
   <test name="Test">
     <classes>
-      <class name="tests.EnjizIntegrationSettingsIsDisplayedTest"/>
-      <class name="tests.WorkflowIntegrationSettingsIsDisplayedTest"/>
-      <class name="tests.BEClientIntegrationSettingsIsDisplayedTest"/>      
+      <class name="tests.WorkflowIntegrationSettingsAreDisplayedTest"/>
+      <class name="tests.BEClientIntegrationSettingsAreDisplayedTest"/>
+      <class name="tests.EnjizIntegrationSettingsAreDisplayedTest"/>      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

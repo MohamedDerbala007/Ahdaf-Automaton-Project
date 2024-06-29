@@ -3,13 +3,20 @@
 <suite name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="tests.BEClientIntegrationSettingsIsDisplayedTest">
+      <class name="tests.WorkflowIntegrationSettingsAreDisplayedTest">
         <methods>
           <include name="startDriver"/>
           <include name="stopDriver"/>
-          <include name="beclientIntegrationSettingsAreDisplayedSuccessfully"/>
+          <include name="workflowIntegrationSettingsAreDisplayedSuccessfully"/>
         </methods>
-      </class> <!-- tests.BEClientIntegrationSettingsIsDisplayedTest -->
+      </class> <!-- tests.WorkflowIntegrationSettingsAreDisplayedTest -->
+      <class name="tests.BEClientIntegrationSettingsAreDisplayedTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="beclientIntegrationSettingsAreDisplayedSuccessfully"/>
+          <include name="stopDriver"/>
+        </methods>
+      </class> <!-- tests.BEClientIntegrationSettingsAreDisplayedTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
