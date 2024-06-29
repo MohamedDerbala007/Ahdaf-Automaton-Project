@@ -1,25 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-30T00:37:15 EEST" name="Default suite" finished-at="2024-06-30T00:38:18 EEST" duration-ms="62482">
+  <suite started-at="2024-06-30T00:46:51 EEST" name="Suite" finished-at="2024-06-30T00:52:47 EEST" duration-ms="355404">
     <groups>
     </groups>
-    <test started-at="2024-06-30T00:37:15 EEST" name="Default test" finished-at="2024-06-30T00:38:18 EEST" duration-ms="62482">
-      <class name="tests.StandaloneKPIsGridIsDisplayedTest">
-        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.StandaloneKPIsGridIsDisplayedTest@313ac989]" started-at="2024-06-30T00:37:15 EEST" name="startDriver" finished-at="2024-06-30T00:37:21 EEST" duration-ms="6055" status="PASS">
+    <test started-at="2024-06-30T00:46:51 EEST" name="Test" finished-at="2024-06-30T00:52:47 EEST" duration-ms="355404">
+      <class name="tests.DataOfMasterDashboardDisplayedTest">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.DataOfMasterDashboardDisplayedTest@34a3d150]" started-at="2024-06-30T00:48:34 EEST" name="startDriver" finished-at="2024-06-30T00:48:41 EEST" duration-ms="6093" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="StandaloneKPIsGridIsDisplayedTestSuccessfully()[pri:0, instance:tests.StandaloneKPIsGridIsDisplayedTest@313ac989]" started-at="2024-06-30T00:37:21 EEST" name="StandaloneKPIsGridIsDisplayedTestSuccessfully" finished-at="2024-06-30T00:38:17 EEST" duration-ms="56095" status="PASS">
+        <test-method signature="userCanGenerateSummaryStrategicPerformanceReportSuccessfully()[pri:0, instance:tests.DataOfMasterDashboardDisplayedTest@34a3d150]" started-at="2024-06-30T00:48:41 EEST" name="userCanGenerateSummaryStrategicPerformanceReportSuccessfully" finished-at="2024-06-30T00:49:18 EEST" duration-ms="37608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanGenerateSummaryStrategicPerformanceReportSuccessfully -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.DataOfMasterDashboardDisplayedTest@34a3d150]" started-at="2024-06-30T00:49:18 EEST" name="stopDriver" finished-at="2024-06-30T00:49:18 EEST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.DataOfMasterDashboardDisplayedTest -->
+      <class name="tests.StandaloneKPIsGridIsDisplayedTest">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.StandaloneKPIsGridIsDisplayedTest@459e9125]" started-at="2024-06-30T00:51:57 EEST" name="startDriver" finished-at="2024-06-30T00:52:02 EEST" duration-ms="4589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="StandaloneKPIsGridIsDisplayedTestSuccessfully()[pri:0, instance:tests.StandaloneKPIsGridIsDisplayedTest@459e9125]" started-at="2024-06-30T00:52:02 EEST" name="StandaloneKPIsGridIsDisplayedTestSuccessfully" finished-at="2024-06-30T00:52:46 EEST" duration-ms="44141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StandaloneKPIsGridIsDisplayedTestSuccessfully -->
-        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.StandaloneKPIsGridIsDisplayedTest@313ac989]" started-at="2024-06-30T00:38:17 EEST" name="stopDriver" finished-at="2024-06-30T00:38:18 EEST" duration-ms="275" status="PASS">
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.StandaloneKPIsGridIsDisplayedTest@459e9125]" started-at="2024-06-30T00:52:46 EEST" name="stopDriver" finished-at="2024-06-30T00:52:47 EEST" duration-ms="325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopDriver -->
       </class> <!-- tests.StandaloneKPIsGridIsDisplayedTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="tests.StandaloneInitiativesGridIsDisplayedTest">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.StandaloneInitiativesGridIsDisplayedTest@6f1de4c7]" started-at="2024-06-30T00:51:10 EEST" name="startDriver" finished-at="2024-06-30T00:51:14 EEST" duration-ms="4835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="StandaloneInitiativesGridIsDisplayedTestSuccessfully()[pri:0, instance:tests.StandaloneInitiativesGridIsDisplayedTest@6f1de4c7]" started-at="2024-06-30T00:51:14 EEST" name="StandaloneInitiativesGridIsDisplayedTestSuccessfully" finished-at="2024-06-30T00:51:57 EEST" duration-ms="42744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StandaloneInitiativesGridIsDisplayedTestSuccessfully -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.StandaloneInitiativesGridIsDisplayedTest@6f1de4c7]" started-at="2024-06-30T00:51:57 EEST" name="stopDriver" finished-at="2024-06-30T00:51:57 EEST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.StandaloneInitiativesGridIsDisplayedTest -->
+      <class name="tests.KPIsGridIsDisplayedInRootBSCTest">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.KPIsGridIsDisplayedInRootBSCTest@5c6648b0]" started-at="2024-06-30T00:49:49 EEST" name="startDriver" finished-at="2024-06-30T00:49:54 EEST" duration-ms="5001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="userCanGenerateSummaryStrategicPerformanceReportSuccessfully()[pri:0, instance:tests.KPIsGridIsDisplayedInRootBSCTest@5c6648b0]" started-at="2024-06-30T00:49:54 EEST" name="userCanGenerateSummaryStrategicPerformanceReportSuccessfully" finished-at="2024-06-30T00:51:09 EEST" duration-ms="75753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanGenerateSummaryStrategicPerformanceReportSuccessfully -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.KPIsGridIsDisplayedInRootBSCTest@5c6648b0]" started-at="2024-06-30T00:51:09 EEST" name="stopDriver" finished-at="2024-06-30T00:51:10 EEST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.KPIsGridIsDisplayedInRootBSCTest -->
+      <class name="tests.DataOfIntermediateResultsMasterDashboardDisplayedTest">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.DataOfIntermediateResultsMasterDashboardDisplayedTest@31304f14]" started-at="2024-06-30T00:47:48 EEST" name="startDriver" finished-at="2024-06-30T00:47:57 EEST" duration-ms="8172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="userCanGenerateSummaryStrategicPerformanceReportSuccessfully()[pri:0, instance:tests.DataOfIntermediateResultsMasterDashboardDisplayedTest@31304f14]" started-at="2024-06-30T00:47:57 EEST" name="userCanGenerateSummaryStrategicPerformanceReportSuccessfully" finished-at="2024-06-30T00:48:34 EEST" duration-ms="37645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanGenerateSummaryStrategicPerformanceReportSuccessfully -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.DataOfIntermediateResultsMasterDashboardDisplayedTest@31304f14]" started-at="2024-06-30T00:48:34 EEST" name="stopDriver" finished-at="2024-06-30T00:48:34 EEST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.DataOfIntermediateResultsMasterDashboardDisplayedTest -->
+      <class name="tests.InitiativesGridIsDisplayedInRootBSCTest">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.InitiativesGridIsDisplayedInRootBSCTest@2a4fb17b]" started-at="2024-06-30T00:49:18 EEST" name="startDriver" finished-at="2024-06-30T00:49:24 EEST" duration-ms="5973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="userCanGenerateSummaryStrategicPerformanceReportSuccessfully()[pri:0, instance:tests.InitiativesGridIsDisplayedInRootBSCTest@2a4fb17b]" started-at="2024-06-30T00:49:24 EEST" name="userCanGenerateSummaryStrategicPerformanceReportSuccessfully" finished-at="2024-06-30T00:49:48 EEST" duration-ms="23912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanGenerateSummaryStrategicPerformanceReportSuccessfully -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.InitiativesGridIsDisplayedInRootBSCTest@2a4fb17b]" started-at="2024-06-30T00:49:48 EEST" name="stopDriver" finished-at="2024-06-30T00:49:49 EEST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.InitiativesGridIsDisplayedInRootBSCTest -->
+      <class name="tests.UserLoginTest">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.UserLoginTest@18078bef]" started-at="2024-06-30T00:46:51 EEST" name="startDriver" finished-at="2024-06-30T00:46:57 EEST" duration-ms="5708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="userCanLoginSuccessfully()[pri:0, instance:tests.UserLoginTest@18078bef]" started-at="2024-06-30T00:46:57 EEST" name="userCanLoginSuccessfully" finished-at="2024-06-30T00:47:14 EEST" duration-ms="16851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanLoginSuccessfully -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.UserLoginTest@18078bef]" started-at="2024-06-30T00:47:14 EEST" name="stopDriver" finished-at="2024-06-30T00:47:14 EEST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.UserLoginTest -->
+      <class name="tests.AhdafBSCsStructureIsDisplayedInHomePageTest">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:tests.AhdafBSCsStructureIsDisplayedInHomePageTest@6302bbb1]" started-at="2024-06-30T00:47:14 EEST" name="startDriver" finished-at="2024-06-30T00:47:20 EEST" duration-ms="6269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="userCanGenerateSummaryStrategicPerformanceReportSuccessfully()[pri:0, instance:tests.AhdafBSCsStructureIsDisplayedInHomePageTest@6302bbb1]" started-at="2024-06-30T00:47:20 EEST" name="userCanGenerateSummaryStrategicPerformanceReportSuccessfully" finished-at="2024-06-30T00:47:48 EEST" duration-ms="27950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanGenerateSummaryStrategicPerformanceReportSuccessfully -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.AhdafBSCsStructureIsDisplayedInHomePageTest@6302bbb1]" started-at="2024-06-30T00:47:48 EEST" name="stopDriver" finished-at="2024-06-30T00:47:48 EEST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.AhdafBSCsStructureIsDisplayedInHomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

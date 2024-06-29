@@ -19,7 +19,7 @@ public class TestBase3
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
-		driver.navigate().to("https://pshwork.com/acd/AhdafWeb/#/indicatorsgrid/1/view");
+		driver.navigate().to("https://pshwork.com/AhdafWeb/#/indicatorsgrid/1/view");
 	}
 
 	@AfterClass

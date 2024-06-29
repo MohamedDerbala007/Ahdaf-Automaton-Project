@@ -22,5 +22,6 @@ public class UserLoginTest extends TestBase
 		homeObject = new HomePage(driver);
 		Thread.sleep(5000);
 		Assert.assertTrue(homeObject.homePageIcon.isDisplayed(), "Home page icon is not displayed"); 
+		System.out.println("User has logged in Successfully");
 	}
 }
