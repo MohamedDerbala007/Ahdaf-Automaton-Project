@@ -19,7 +19,7 @@ public class TestBase2
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
-		driver.navigate().to("https://pshwork.com/acd/AhdafWeb/#/initiativesgrid/1/viewinitiatves");
+		driver.navigate().to("https://pshwork.com/AhdafWeb/#/initiativesgrid/1/viewinitiatves");
 	}
 
 	@AfterClass

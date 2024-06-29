@@ -21,6 +21,11 @@ public class SideMenuPage extends PageBase
 	@FindBy(xpath = "//*[@id=\"sidebar-panel\"]/mat-nav-list/app-layout-sidenav/div/mat-list-item[25]/div/a/span[1]")
 	WebElement administrationMenu;
 	
+	@FindBy(xpath = "//*[@id=\"sidebar-panel\"]/mat-nav-list/app-layout-sidenav/div/mat-list-item[1]/div/a/span")
+	WebElement standaloneInitiatives;
+	
+	@FindBy(xpath = "//*[@id=\"sidebar-panel\"]/mat-nav-list/app-layout-sidenav/div/mat-list-item[2]/div/a/span")
+	WebElement standaloneKPIs;
 	
 	public void openReportsMenu()
 	{
@@ -31,8 +36,19 @@ public class SideMenuPage extends PageBase
 	{
 		clickButton(rootBSC);
 	}
+	
 	public void openAdmininstrationMenu()
 	{
 		clickButton(administrationMenu);
+	}
+	
+	public void openStandaloneInitiativesPage()
+	{
+		clickButton(standaloneInitiatives);
+	}
+	
+	public void openStandaloneKPIsPage()
+	{
+		clickButton(standaloneKPIs);
 	}
 }
